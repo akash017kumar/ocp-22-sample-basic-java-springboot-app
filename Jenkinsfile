@@ -1,6 +1,7 @@
 pipeline {
     agent {
         label "java11"
+        echo "This is for the build"
     }
     stages {
         stage('SCM') {
