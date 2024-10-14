@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('SCM') {
             steps {
-                echo 'Cloning the Code Repository..'
+                echo 'Cloning the Code Repo..'
                 git branch: 'main', url: 'https://github.com/bobbybabu007/ocp-22-sample-basic-java-springboot-app.git'
             }
         }
